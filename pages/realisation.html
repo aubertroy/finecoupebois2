@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
+<!DOCTYPE html><html lang="en"><head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,15 +8,15 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
         <!-- Option 1: Include in HTML -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="style.b3155aa7.css">
-        <script src="src.3c0548be.js" type="module"></script>
+        <link rel="stylesheet" href="projet.9e356f79.css">
+        <script src="commencons.41f5ca9a.js" type="module"></script>
+        <script src="projet.0b38d969.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
            
     </head>
 
       
         <body>
-
 
             <section class="section bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
 
@@ -38,16 +35,16 @@
                             </p>
 
                             <button type="button" class="btn btn-outline-warning" aria-hidden="true" aria-label="Close" onclick="window.open('../index.html', '_self',   ''); window.close();"> Fermer
-                                <span aria-hidden="true">&times;</span>
+                                <span aria-hidden="true">×</span>
                             </button>
 
                             <!-- <button type="button" class="btn btn-default btn-lg">
                                 <span class="bi bi-door-closed-fill fa-lg"" aria-hidden="true"></span> Fermer
                             </button> -->
-
+                            <div class="vr"></div>
                         </div>
                         
-                        <img class="img-fluid w-25 d-none d-sm-block loat-right " src="../escalier_rez.269e010e.jpg" alt="">
+                        <img class="img-fluid w-25 d-none d-sm-block loat-right " src="escalier_rez.92d70ce4.jpg" alt="">
                         
 
                     </div>    
@@ -57,18 +54,19 @@
                 </div>
                 
             </section>
-    
 
 
- 
 
+          <div id="footer-placeholder"></div> 
+
+          <script>fetch('footer.html').then((response)=>response.text()).then((data)=>{
+    document.getElementById('footer-placeholder').innerHTML = data;
+});
+
+</script>
 
               
-            <footer class="p5 bg-dark text-white text-center position-relative">
-              <div class="container">
-                <p class="lead"> Copyright &copy; 2023 La Fine Coupe de Bois</p>
-              </div>
-            </footer>
+
     
         
       </body></html>
